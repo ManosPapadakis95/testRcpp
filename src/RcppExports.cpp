@@ -11,70 +11,70 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 // power_vector
-NumericVector power_vector(NumericVector x, double power);
+Rcpp::NumericVector power_vector(Rcpp::NumericVector x, double power);
 RcppExport SEXP _testRcpp_power_vector(SEXP xSEXP, SEXP powerSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     Rcpp::traits::input_parameter< double >::type power(powerSEXP);
     rcpp_result_gen = Rcpp::wrap(power_vector(x, power));
     return rcpp_result_gen;
 END_RCPP
 }
 // sqrt_vector
-NumericVector sqrt_vector(NumericVector x);
+Rcpp::NumericVector sqrt_vector(Rcpp::NumericVector x);
 RcppExport SEXP _testRcpp_sqrt_vector(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     rcpp_result_gen = Rcpp::wrap(sqrt_vector(x));
     return rcpp_result_gen;
 END_RCPP
 }
 // sum_vector
-double sum_vector(NumericVector x);
+double sum_vector(Rcpp::NumericVector x);
 RcppExport SEXP _testRcpp_sum_vector(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     rcpp_result_gen = Rcpp::wrap(sum_vector(x));
     return rcpp_result_gen;
 END_RCPP
 }
 // divide_vector
-NumericVector divide_vector(NumericVector x, double divisor);
+Rcpp::NumericVector divide_vector(Rcpp::NumericVector x, double divisor);
 RcppExport SEXP _testRcpp_divide_vector(SEXP xSEXP, SEXP divisorSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     Rcpp::traits::input_parameter< double >::type divisor(divisorSEXP);
     rcpp_result_gen = Rcpp::wrap(divide_vector(x, divisor));
     return rcpp_result_gen;
 END_RCPP
 }
 // multiply_vector
-NumericVector multiply_vector(NumericVector x, double multiplier);
+Rcpp::NumericVector multiply_vector(Rcpp::NumericVector x, double multiplier);
 RcppExport SEXP _testRcpp_multiply_vector(SEXP xSEXP, SEXP multiplierSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     Rcpp::traits::input_parameter< double >::type multiplier(multiplierSEXP);
     rcpp_result_gen = Rcpp::wrap(multiply_vector(x, multiplier));
     return rcpp_result_gen;
 END_RCPP
 }
 // toTable
-std::map<std::string, double> toTable(NumericVector x);
+std::map<std::string, double> toTable(Rcpp::NumericVector x);
 RcppExport SEXP _testRcpp_toTable(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     rcpp_result_gen = Rcpp::wrap(toTable(x));
     return rcpp_result_gen;
 END_RCPP
