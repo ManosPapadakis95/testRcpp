@@ -2,7 +2,6 @@
 #include <Rcpp.h>
 #include "helpers.h"
 #include "Str.h"
-using namespace Rcpp;
 
 //[[Rcpp::export]]
 NumericVector generate_minstd_rand0_sequence(std::size_t length) {  // 1. minstd_rand0

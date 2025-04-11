@@ -2,7 +2,6 @@
 #pragma once
 
 #include <Rcpp.h>
-using namespace Rcpp;
 
 namespace Str {
     bool containsSubstring(std::string str, std::string substr);
