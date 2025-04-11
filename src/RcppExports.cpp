@@ -2,7 +2,6 @@
 // Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #include <Rcpp.h>
-#include "myClass.h"
 
 using namespace Rcpp;
 
@@ -77,16 +76,6 @@ BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
     rcpp_result_gen = Rcpp::wrap(toTable(x));
-    return rcpp_result_gen;
-END_RCPP
-}
-// create_rng_int
-RandomNumberGenerator<double> create_rng_int();
-RcppExport SEXP _testRcpp_create_rng_int() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(create_rng_int());
     return rcpp_result_gen;
 END_RCPP
 }
@@ -338,7 +327,6 @@ static const R_CallMethodDef CallEntries[] = {
     {"_testRcpp_divide_vector", (DL_FUNC) &_testRcpp_divide_vector, 2},
     {"_testRcpp_multiply_vector", (DL_FUNC) &_testRcpp_multiply_vector, 2},
     {"_testRcpp_toTable", (DL_FUNC) &_testRcpp_toTable, 1},
-    {"_testRcpp_create_rng_int", (DL_FUNC) &_testRcpp_create_rng_int, 0},
     {"_testRcpp_generate_minstd_rand0_sequence", (DL_FUNC) &_testRcpp_generate_minstd_rand0_sequence, 1},
     {"_testRcpp_generate_minstd_rand_sequence", (DL_FUNC) &_testRcpp_generate_minstd_rand_sequence, 1},
     {"_testRcpp_generate_mt19937_sequence", (DL_FUNC) &_testRcpp_generate_mt19937_sequence, 1},
