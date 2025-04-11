@@ -25,10 +25,6 @@ toTable <- function(x) {
     .Call(`_testRcpp_toTable`, x)
 }
 
-create_rng_int <- function() {
-    .Call(`_testRcpp_create_rng_int`)
-}
-
 generate_minstd_rand0_sequence <- function(length) {
     .Call(`_testRcpp_generate_minstd_rand0_sequence`, length)
 }
