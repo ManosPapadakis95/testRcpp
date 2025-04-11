@@ -1,0 +1,375 @@
+[
+    {
+        "file": "C:/Users/papad/Documents/GitHub/testRcpp/inst/include/helpers.h",
+        "file_last_write": 1744131448.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+        "file_last_write": 1744293355.0,
+        "definitions": [
+            {
+                "usr": "c:@N@Str@F@containsSubstring#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "containsSubstring(std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 8,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@Str@F@toUpperCase#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "toUpperCase(std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 12,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@Str@F@trim#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "trim(std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 18,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@Str@F@startsWith#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "startsWith(std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 32,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@Str@F@endsWith#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "endsWith(std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 36,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@Str@F@replaceSubstring#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "replaceSubstring(std::string, std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 43,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@Str@F@toTable#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "toTable(std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.cpp",
+                "line": 53,
+                "column": 35,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/Str.h",
+        "file_last_write": 1744293346.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+        "file_last_write": 1744292896.0,
+        "definitions": [
+            {
+                "usr": "c:@F@power_vector#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "power_vector(Rcpp::NumericVector, double)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+                "line": 5,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sqrt_vector#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sqrt_vector(Rcpp::NumericVector)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+                "line": 10,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sum_vector#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sum_vector(Rcpp::NumericVector)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+                "line": 15,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@divide_vector#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "divide_vector(Rcpp::NumericVector, double)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+                "line": 20,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@multiply_vector#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "multiply_vector(Rcpp::NumericVector, double)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+                "line": 25,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@toTable#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "toTable(Rcpp::NumericVector)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/functions.cpp",
+                "line": 30,
+                "column": 31,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+        "file_last_write": 1744293981.0,
+        "definitions": [
+            {
+                "usr": "c:@F@generate_minstd_rand0_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_minstd_rand0_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 8,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_minstd_rand_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_minstd_rand_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 13,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_mt19937_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_mt19937_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 18,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_mt19937_64_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_mt19937_64_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 23,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_ranlux24_base_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_ranlux24_base_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 28,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_ranlux48_base_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_ranlux48_base_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 33,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_ranlux24_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_ranlux24_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 38,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_ranlux48_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_ranlux48_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 43,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_knuth_b_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_knuth_b_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 48,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_default_random_engine_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_default_random_engine_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 53,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_subtract_with_carry_engine_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_subtract_with_carry_engine_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 58,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generate_subtract_with_carry_engine_64_sequence#k#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generate_subtract_with_carry_engine_64_sequence(std::size_t)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 63,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sample#&$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#k#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sample(Rcpp::NumericVector &, std::size_t, bool)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 68,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sample_int#&$@N@Rcpp@S@Vector>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#k#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sample_int(Rcpp::IntegerVector &, std::size_t, bool)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 73,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@containsSubstring#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "containsSubstring(std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 78,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@toUpperCase#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "toUpperCase(std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 83,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@trim#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "trim(std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 88,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@startsWith#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "startsWith(std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 93,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@endsWith#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "endsWith(std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 98,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@replaceSubstring#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "replaceSubstring(std::string, std::string, std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 103,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@toTable_char#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "toTable_char(std::string)",
+                "file": "C:/Users/papad/Documents/GitHub/testRcpp/src/myheader.cpp",
+                "line": 108,
+                "column": 31,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
