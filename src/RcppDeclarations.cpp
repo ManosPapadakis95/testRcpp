@@ -1,7 +1,6 @@
 
 #include <Rcpp.h>
-#include "helpers.h"
-#include "Str.h"
+#include "testRcppNew_types.h"
 
 //[[Rcpp::export]]
 NumericVector Rminstd_rand(std::size_t length) {  // 2. minstd_rand
